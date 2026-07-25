@@ -34,18 +34,7 @@ Add your personal profile to `team_data.json` using Git and GitHub.
 
 ## 📊 Your Student Assignment
 
-| Your Name | Your Student Number |
-| :--- | :--- |
-| Alice | Student 1 |
-| Bob | Student 2 |
-| Charlie | Student 3 |
-| Diana | Student 4 |
-| Eve | Student 5 |
-| Frank | Student 6 |
-
 Find your placeholder in `team_data.json` and replace it with your details!
-
----
 
 ## 📋 Step-by-Step Instructions
 
@@ -53,3 +42,69 @@ Find your placeholder in `team_data.json` and replace it with your details!
 ```bash
 git clone https://github.com/YOUR_INSTRUCTORS_USERNAME/team-api-builder.git
 cd team-api-builder
+
+# Replace 'student1' with YOUR NAME (e.g., 'alice', 'bob')
+git checkout -b feature/add-student1
+
+{
+    "name": "Student 1",        // CHANGE to your name
+    "role": "Placeholder",      // CHANGE to your role
+    "tech": "Placeholder"       // CHANGE to your favorite tech
+}
+
+{
+    "name": "Alice",
+    "role": "Frontend Developer",
+    "tech": "React"
+}
+
+4. Commit and Push
+
+5. Open a Pull Request
+Go to the repository on GitHub.com
+
+Click "Compare & pull request"
+
+Title: Add profile for YOUR_NAME
+
+Description: Include your name, role, and favorite tech
+
+Click "Create Pull Request"
+
+6. If You Get a Merge Conflict
+If GitHub says there's a conflict:
+
+bash
+# Switch to main
+git checkout main
+
+# Pull the latest
+git pull origin main
+
+# Switch back to your branch
+git checkout feature/add-student1
+
+# Merge main into your branch
+git merge main
+Open team_data.json and:
+
+Delete the <<<<<<<, =======, and >>>>>>> markers
+
+Keep ALL student objects
+
+Add commas between objects (except the last one)
+
+Save the file
+
+Then:
+
+bash
+git add team_data.json
+git commit -m "resolve merge conflict in team_data.json"
+git push origin feature/add-student1
+7. Final Sync
+Once your Pull Request is merged:
+
+bash
+git checkout main
+git pull origin main
