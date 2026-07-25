@@ -5,9 +5,9 @@
         "tech": "Kubernetes"
     },
     {
-        "name": "Student 1",
-        "role": "Placeholder",
-        "tech": "Placeholder"
+        "name": "Emma",
+        "role": "Machine Learning Engineer",
+        "tech": "Pytorch"
     },
     {
         "name": "Student 2",
