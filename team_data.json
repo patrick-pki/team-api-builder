@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Queku Nkrumah",
+        "role": "Instructor",
+        "tech": "Kubernetes"
+    },
+    {
+        "name": "Student 1",
+        "role": "Placeholder",
+        "tech": "Placeholder"
+    },
+    {
+        "name": "Student 2",
+        "role": "Placeholder",
+        "tech": "Placeholder"
+    },
+    {
+        "name": "Student 3",
+        "role": "Placeholder",
+        "tech": "Placeholder"
+    },
+    {
+        "name": "Student 4",
+        "role": "Placeholder",
+        "tech": "Placeholder"
+    },
+    {
+        "name": "Student 5",
+        "role": "Placeholder",
+        "tech": "Placeholder"
+    },
+    {
+        "name": "Student 6",
+        "role": "Placeholder",
+        "tech": "Placeholder"
+    }
+]
