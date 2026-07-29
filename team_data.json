@@ -14,10 +14,15 @@
         "role": "Devops Engineer",
         "tech": "AWS"
     },
-    {
+     {
         "name": "Kevin Predestin",
         "role": "Cybersecurity Analyst",
         "tech": "Linux"
+    },
+    {
+        "name": "Julius Adinkrah",
+        "role": "AI in Energy",
+        "tech": "AI"
     },
     {
         "name": "Student 4",
