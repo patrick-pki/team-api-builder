@@ -15,9 +15,19 @@
         "tech": "AWS"
     },
     {
-        "name": "KoffI Apedoh",
+        "name": "Koffi Apedoh",
         "role": "Software Engineer",
         "tech": "Microsoft"
+    },
+     {
+        "name": "Kevin Predestin",
+        "role": "Cybersecurity Analyst",
+        "tech": "Linux"
+    },
+    {
+        "name": "Julius Adinkrah",
+        "role": "AI in Energy",
+        "tech": "AI"
     },
     {
         "name": "Student 4",
